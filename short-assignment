@@ -1,0 +1,43 @@
+Prompt:
+
+"Please parse the following resume content into JSON format. The JSON should include fields such as 'Name', 'Contact Information', 'Education', 'Experience', 'Skills', and 'Projects'. Ensure the output is well-structured and clear.
+
+Resume:
+
+mathematica
+Copy code
+[Insert Resume Content Here]
+Desired JSON structure:
+
+json
+Copy code
+{
+  "Name": "John Doe",
+  "Contact Information": {
+    "Email": "john.doe@example.com",
+    "Phone": "123-456-7890",
+    "LinkedIn": "linkedin.com/in/johndoe"
+  },
+  "Education": [
+    {
+      "Degree": "Bachelor of Science in Computer Science",
+      "Institution": "University of Example",
+      "Year": "2020"
+    }
+  ],
+  "Experience": [
+    {
+      "Position": "Software Engineer",
+      "Company": "Tech Solutions",
+      "Years": "2020-2023",
+      "Responsibilities": ["Developed web applications", "Collaborated with cross-functional teams"]
+    }
+  ],
+  "Skills": ["Python", "JavaScript", "Machine Learning"],
+  "Projects": [
+    {
+      "Title": "Machine Learning Model for Predictive Analysis",
+      "Description": "Developed a predictive model to analyze customer data."
+    }
+  ]
+}
